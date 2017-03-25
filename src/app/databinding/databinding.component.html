@@ -1,0 +1,10 @@
+<h1>
+  {{stringInterporlation}}
+</h1>
+<input type="text" [value]="stringInterporlation" />
+<p [ngClass]="{redBorder: false}">Oi</p>
+<p [ngStyle]="{border: '1px solid red', color: 'blue'}">Oi</p>
+<h3>Property Binding</h3>
+<fa-propertybinding [result]="10"></fa-propertybinding>
+<h3>Event Binding</h3>
+<fa-eventbinding (clicked)="onClicked($event)"></fa-eventbinding>
